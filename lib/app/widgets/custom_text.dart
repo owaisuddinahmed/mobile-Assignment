@@ -45,7 +45,7 @@ class CustomText extends StatelessWidget {
       maxLines: maxLines,
       style: TextStyle(
           decoration: TextDecoration.none,
-          color: color ?? Colors.black,
+          // color: color ?? Colors.black,
           fontSize: fontSize?.sp ?? 14.sp,
           fontFamily: fontFamily ,
           fontWeight: fontWeight ?? FontWeight.w400,
